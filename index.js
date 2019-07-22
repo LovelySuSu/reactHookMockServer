@@ -1,18 +1,8 @@
-const express = require('express')
+const express = require('express');
+const path = require('path');
+const apiMocker = require('mocker-api');
 
-const app = new express()
+const app = express();
 
-app.get('/',(req,res) => {
-    res.status(200)
-    res.send('hello express')
-    res.end()
-})
-app.get('/rest',(req,res) => {
-    res.json({
-        result: 1,
-        msg: 'hello dingding'
-    })
-})
-app.listen('1314',() => {
-    console.log('server is listening on port 1314')
-})
+apiMocker(app, path.resolve('./mocker/mocker.js'))
+app.listen(1314);
