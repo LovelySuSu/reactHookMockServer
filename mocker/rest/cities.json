@@ -25,7 +25,7 @@
         "name": "天津"
     }],
     "cityList": [{
-        "citys": [{
+        "cities": [{
             "name": "安顺"
         }, {
             "name": "安阳"
@@ -38,7 +38,7 @@
         }],
         "title": "A"
     }, {
-        "citys": [{
+        "cities": [{
             "name": "霸州"
         }, {
             "name": "白银市"
@@ -67,7 +67,7 @@
         }],
         "title": "B"
     }, {
-        "citys": [{
+        "cities": [{
             "name": "滁州"
         }, {
             "name": "昌图"
@@ -110,7 +110,7 @@
         }],
         "title": "C"
     }, {
-        "citys": [{
+        "cities": [{
             "name": "德兴"
         }, {
             "name": "大安"
@@ -149,7 +149,7 @@
         }],
         "title": "D"
     }, {
-        "citys": [{
+        "cities": [{
             "name": "鄂州"
         }, {
             "name": "峨眉"
